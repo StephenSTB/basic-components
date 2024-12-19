@@ -1,0 +1,205 @@
+/* FLEX */
+.button-icon-black,
+.button-medium-black,
+.button-large-black,
+
+.button-icon-white,
+.button-medium-white,
+.button-large-white,
+
+.button-icon-green, 
+.button-medium-green,
+.button-large-green,
+
+.button-icon-teal, 
+.button-medium-teal,
+.button-large-teal,
+
+.button-icon-purple, 
+.button-medium-purple,
+.button-large-purple,
+
+.button-icon-red, 
+.button-medium-red,
+.button-large-red
+
+.button-icon-light, 
+.button-medium-light,
+.button-large-light,
+
+.button-icon-dark, 
+.button-medium-dark,
+.button-large-dark
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+/*HOVER*/
+
+.button-icon-white:hover, 
+.button-medium-white:hover,
+.button-large-white:hover,
+
+.button-icon-green:hover, 
+.button-medium-green:hover,
+.button-large-green:hover,
+
+.button-icon-teal:hover, 
+.button-medium-teal:hover,
+.button-large-teal:hover,
+
+.button-icon-purple:hover, 
+.button-medium-purple:hover,
+.button-large-purple,
+
+.button-icon-red:hover, 
+.button-medium-red:hover,
+.button-large-red:hover,
+
+.button-icon-light:hover, 
+.button-medium-light:hover,
+.button-large-light:hover
+{
+    box-shadow:  0 0 0.5em 0 var(--black);
+}
+
+.button-icon-black:hover,
+.button-medium-black:hover,
+.button-large-black:hover,
+
+.button-icon-dark:hover, 
+.button-medium-dark:hover,
+.button-large-dark:hover
+{
+    box-shadow:  0 0 0.5em 0 var(--green);
+}
+
+/* SIZE */
+
+.button-icon-black,
+.button-icon-white,
+.button-icon-green,
+.button-icon-teal,
+.button-icon-purple,
+.button-icon-red,
+.button-icon-light,
+.button-icon-dark
+{
+    min-width: 35px;
+    max-width: 35px;
+    min-height: 35px;
+    max-height: 35px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-medium-black,
+.button-medium-white,
+.button-medium-green,
+.button-medium-teal,
+.button-medium-purple,
+.button-medium-red,
+.button-medium-light,
+.button-medium-dark
+{
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+.button-large-black,
+.button-large-white,
+.button-large-green,
+.button-large-teal,
+.button-large-purple,
+.button-large-red,
+.button-large-light,
+.button-large-dark
+{
+    min-width: 150px;
+    max-width: 150px;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+/* COLOR */
+
+.button-icon-black,
+.button-medium-black,
+.button-large-black,
+.button-icon-dark,
+.button-medium-dark,
+.button-large-dark
+{
+    background-color: var(--black);
+    color: var(--green);
+    border: solid 1px var(--green)
+}
+
+.button-icon-white,
+.button-medium-white,
+.button-large-white,
+.button-icon-light,
+.button-medium-light,
+.button-large-light
+{
+    background-color: var(--white);
+    color: var(--black);
+    border: solid 1px var(--black)
+}
+
+.button-icon-green,
+.button-medium-green,
+.button-large-green{
+    background-color: var(--green);
+    color: var(--black);
+    border: solid 1px gray
+}
+
+.button-icon-teal,
+.button-medium-teal,
+.button-large-teal{
+    background-color: var(--teal);
+    color: var(--black);
+    border: solid 1px gray
+}
+
+.button-icon-purple,
+.button-medium-purple,
+.button-large-purple{
+    background-color: var(--purple);
+    color: var(--black);
+    border: solid 1px var(--black)
+}
+
+.button-icon-red,
+.button-medium-red,
+.button-large-red{
+    background-color: var(--red);
+    color: var(--green);
+    border: solid 1px var(--black)
+}
+
+/* TRANSACTING ICON */
+
+@keyframes spin{
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(360deg) }
+}
+
+.button-transacting-icon{
+    animation: spin 2s linear infinite;
+}
+
+
+
+

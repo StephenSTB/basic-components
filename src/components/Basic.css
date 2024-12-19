@@ -1,0 +1,77 @@
+:root{
+    --green: #54c18a;
+    --teal: #44abc6;
+    --purple:  #8347e6;
+    --red: #701420;
+    --black : #202020;
+}
+
+*{
+  /*font-family: roboto;*/
+  /*font-size: 11.5pt;*/
+}
+
+
+.button-icon-black, 
+.button-medium-black,
+.button-large-black,
+
+.button-icon-white,
+.button-medium-white,
+.button-large-white,
+
+.button-icon-green, 
+.button-medium-green,
+.button-large-green,
+
+.button-icon-teal, 
+.button-medium-teal,
+.button-large-teal,
+
+.button-icon-purple, 
+.button-medium-purple,
+.button-large-purple,
+
+.button-icon-red, 
+.button-medium-red,
+.button-large-red,
+
+.button-icon-light,
+.button-medium-light,
+.button-large-light,
+
+.button-icon-dark,
+.button-medium-dark,
+.button-large-dark,
+
+.input-small-light,
+.input-small-dark,
+.input-medium-light,
+.input-medium-dark,
+.input-width-light,
+.input-width-dark,
+
+.popup-display-light,
+.popup-display-dark,
+
+.toggle-light,
+.toggle-dark,
+
+.toggle-button-light,
+.toggle-button-dark,
+
+.textarea-small-light-border,
+.textarea-small-dark-border,
+.textarea-medium-light-border,
+.textarea-medium-dark-border,
+.textarea-width-light-border,
+.textarea-width-dark-border,
+
+.dropdown-medium-light,
+.dropdown-medium-dark,
+
+.dropdown-small-light
+.dropdown-small-dark
+{
+  border-radius: 20px;
+}

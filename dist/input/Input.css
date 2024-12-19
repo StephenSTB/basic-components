@@ -1,0 +1,100 @@
+.input-bar-light, 
+.input-bar-dark{
+    border: none;
+    width: calc(100% - 10px);
+}
+
+.input-bar-light:focus, 
+.input-bar-dark:focus{
+    outline: none;
+}
+
+.input-bar-dark{
+    background-color: var(--black);
+    color: var(--green);
+}
+
+.input-button-light,
+.input-button-dark
+{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 40px;
+    max-width: 40px;
+    min-height: 30px;
+    max-height: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;   
+    cursor: pointer; 
+}
+
+.input-button-light{
+    border-left: 1px solid var(--black);
+    background-color: white;
+}
+
+.input-button-dark{
+    border-left: 1px solid var(--green);
+    background-color: var(--black);
+}
+
+.input-button-light:hover{
+    box-shadow:  0 0 0.5em 0 var(--black);
+}
+
+.input-button-dark:hover{
+    box-shadow:  0 0 0.5em 0 var(--green);
+}
+
+.input-small-light,
+.input-small-dark,
+.input-medium-light,
+.input-medium-dark,
+.input-width-light,
+.input-width-dark
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-height: 30px;
+    max-height: 30px;
+    padding-left: 10px;
+    box-sizing: content-box;
+}
+
+.input-small-light,
+.input-medium-light,
+.input-width-light
+{
+    border: 1px solid var(--black);
+}
+
+.input-small-dark,
+.input-medium-dark,
+.input-width-dark
+{
+    border: 1px solid var(--green);
+    background-color: var(--black);
+}
+
+.input-small-light,
+.input-small-dark
+{
+    min-width: 275px;
+    max-width: 275px
+}
+
+.input-medium-light,
+.input-medium-dark
+{
+    min-width: 400px;
+    max-width: 400px;
+}
+
+.input-width-light,
+.input-width-dark{
+    width: 100%;
+}
+

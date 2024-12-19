@@ -1,0 +1,291 @@
+.textarea-container-mini-light-border,
+.textarea-container-small-light-border,
+.textarea-container-mini-dark-border,
+.textarea-container-small-dark-border,
+.textarea-container-medium-light-border,
+.textarea-container-medium-dark-border,
+.textarea-container-width-light-border,
+.textarea-container-width-dark-border,
+.textarea-container-mini-light-borderless,
+.textarea-container-mini-dark-borderless,
+.textarea-container-small-light-borderless,
+.textarea-container-small-dark-borderless,
+.textarea-container-medium-light-borderless,
+.textarea-container-medium-dark-borderless,
+.textarea-container-large-light-borderless,
+.textarea-container-large-dark-borderless
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.textarea-container-mini-light-border,
+.textarea-container-mini-dark-border,
+.textarea-container-mini-light-borderless,
+.textarea-container-mini-dark-borderless
+{
+    min-width: 255px;
+    max-width: 255px;
+    min-height: 55px;
+    max-height: 55px;
+}
+
+
+.textarea-container-small-light-border,
+.textarea-container-small-dark-border,
+.textarea-container-small-light-borderless,
+.textarea-container-small-dark-borderless
+{
+    min-width: 295px;
+    max-width: 295px;
+    min-height: 55px;
+    max-height: 55px;
+}
+
+.textarea-container-medium-light-border,
+.textarea-container-medium-dark-border,
+.textarea-container-medium-light-borderless,
+.textarea-container-medium-dark-borderless
+{
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 55px;
+    max-height: 55px;
+}
+
+.textarea-container-width-light-border,
+.textarea-container-width-dark-border{
+    width: 100%;
+    min-height: 75px;
+    max-height: 55px;
+}
+
+.textarea-mini-light,
+.textarea-small-light,
+.textarea-medium-light,
+.textarea-width-light,
+.textarea-mini-dark,
+.textarea-small-dark,
+.textarea-medium-dark,
+.textarea-width-dark
+{
+    resize: none;
+    border: none;
+    outline: none;
+}
+
+.textarea-mini-light,
+.textarea-mini-dark
+{
+    min-width: 225px;
+    max-width: 225px;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+
+.textarea-small-light,
+.textarea-small-dark
+{
+    min-width: 275px;
+    max-width: 275px;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+.textarea-medium-light,
+.textarea-medium-dark
+{
+    min-width: 330px;
+    max-width: 330px;
+    min-height: 40px;
+    max-height: 40px;
+}
+
+.textarea-width-light,
+.textarea-width-dark
+{
+    width: 98%;
+    min-height: 55px;
+    max-height: 55px;
+}
+
+.textarea-container-mini-light-border,
+.textarea-container-small-light-border,
+.textarea-container-medium-light-border,
+.textarea-container-large-light-border,
+.textarea-container-mini-dark-border,
+.textarea-container-small-dark-border,
+.textarea-container-medium-dark-border,
+.textarea-container-width-dark-border
+{
+    border-radius: 20px;
+}
+
+.textarea-container-mini-light-border,
+.textarea-container-small-light-border,
+.textarea-container-medium-light-border,
+.textarea-container-large-light-border
+{
+    border: solid 1px var(--black);
+}
+
+.textarea-container-mini-dark-border,
+.textarea-container-small-dark-border,
+.textarea-container-medium-dark-border,
+.textarea-container-width-dark-border
+{
+    border: solid 1px var(--green);
+}
+.textarea-container-mini-dark-border,
+.textarea-container-small-dark-border,
+.textarea-container-medium-dark-border,
+.textarea-container-width-dark-border,
+.textarea-container-mini-dark-border,
+.textarea-container-small-dark-borderless,
+.textarea-container-medium-dark-borderless,
+.textarea-container-width-dark-borderless,
+.textarea-mini-dark,
+.textarea-small-dark,
+.textarea-medium-dark,
+.textarea-width-dark
+{
+    background-color: var(--black);
+}
+
+.textarea-mini-dark,
+.textarea-small-dark,
+.textarea-medium-dark,
+.textarea-width-dark{
+    color: var(--green)
+}
+
+
+
+/*
+.textarea-small-light-border,
+.textarea-small-light-borderless,
+.textarea-small-dark-border,
+.textarea-small-dark-borderless
+{
+    min-width: 275px;
+    max-width: 275px;
+    min-height: 45px;
+    max-height: 45px;
+    resize: none;
+}*/
+
+
+
+.textarea-medium-light-border,
+.textarea-medium-light-borderless,
+.textarea-medium-dark-border,
+.textarea-medium-dark-borderless
+{   
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 45px;
+    max-height: 45px;
+    resize: none;
+}
+
+.textarea-width-light-border,
+.textarea-width-light-borderless,
+.textarea-width-dark-border,
+.textarea-width-dark-borderless{
+    width: 100%;
+    min-height: 75px;
+    max-height: 75px;
+    resize: none;
+}
+
+.textarea-mini-dark-border,
+.textarea-mini-light-border,
+.textarea-small-dark-border,
+.textarea-small-light-border,
+.textarea-medium-light-border,
+.textarea-medium-dark-border,
+.textarea-width-light-border,
+.textarea-width-dark-border
+{
+    padding: 10px;
+}
+
+.textarea-mini-light-borderless,
+.textarea-mini-dark-borderless,
+.textarea-small-light-borderless,
+.textarea-small-dark-borderless,
+.textarea-medium-light-borderless,
+.textarea-medium-dark-borderless,
+.textarea-width-light-borderless,
+.textarea-width-dark-borderless
+{
+    border: none;    
+}
+
+.textarea-mini-light-borderless:focus,
+.textarea-mini-dark-borderless:focus,
+.textarea-small-light-borderless:focus,
+.textarea-small-dark-borderless:focus,
+.textarea-medium-light-borderless:focus,
+.textarea-medium-dark-borderless:focus,
+.textarea-width-light-borderless:focus,
+.textarea-width-dark-borderless:focus
+{
+    outline: none;
+}
+
+.textarea-mini-dark-border,
+.textarea-mini-dark-borderless,
+.textarea-small-dark-border,
+.textarea-small-dark-borderless,
+.textarea-medium-dark-border,
+.textarea-medium-dark-borderless,
+.textarea-width-dark-border,
+.textarea-width-dark-borderless,
+.textarea-container-dark
+{
+    background-color: var(--black);
+    color: var(--green);
+}
+
+.textarea-mini-dark-border
+.textarea-small-dark-border,
+.textarea-medium-dark-border,
+.textarea-width-dark-border,
+.textarea-container-dark
+{
+    border: solid 1px var(--green);
+}
+.textarea-mini-light::-webkit-scrollbar,
+.textarea-mini-dark::-webkit-scrollbar,
+.textarea-small-light::-webkit-scrollbar,
+.textarea-small-dark::-webkit-scrollbar,
+.textarea-medium-light::-webkit-scrollbar,
+.textarea-medium-dark::-webkit-scrollbar,
+.textarea-width-light::-webkit-scrollbar,
+.textarea-width-dark::-webkit-scrollbar
+{
+    width: 5px;
+}
+/* Handle */
+.textarea-mini-light::-webkit-scrollbar-thumb,
+.textarea-small-light::-webkit-scrollbar-thumb,
+.textarea-medium-light::-webkit-scrollbar-thumb, 
+.textarea-width-light::-webkit-scrollbar-thumb 
+{
+    background: var(--black);
+    border-radius: 10px;
+}
+.textarea-mini-dark::-webkit-scrollbar-thumb
+.textarea-small-dark::-webkit-scrollbar-thumb,
+.textarea-medium-dark::-webkit-scrollbar-thumb, 
+.textarea-width-dark::-webkit-scrollbar-thumb 
+{
+    background: var(--green);
+    border-radius: 10px;
+}
+

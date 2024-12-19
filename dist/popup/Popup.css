@@ -1,0 +1,40 @@
+.popup-display-light,
+.popup-display-dark,
+.popup-hide{
+    position: absolute;
+}
+
+.popup-display-light,
+.popup-display-dark
+{
+    padding: 10px;
+}
+
+.popup-display-light{
+    border:  1px solid var(--black);
+    background-color: white;
+}
+
+.popup-display-dark{
+    border:  1px solid var(--green);
+    background-color: var(--black);
+    color: var(--green);
+}
+
+.popup-hide{
+    display: none;
+}
+
+.popup-container-small{
+    min-width: 100px;
+    max-width: 100px;
+    block-size: fit-content;
+    position: relative;
+}
+
+.popup-container-medium{
+    min-width: 300px;
+    max-width: 300px;
+    block-size: fit-content;
+    position: relative;
+}

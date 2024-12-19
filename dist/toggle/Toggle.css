@@ -1,0 +1,42 @@
+.toggle-light, 
+.toggle-dark{
+    min-width: 45px;
+    max-width: 45px;
+    min-height: 25px;
+    max-height: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle-light{
+    border: solid 1px var(--black);
+}
+
+.toggle-dark{
+    border: solid 1px var(--green);
+    background-color: var(--black);
+}
+
+.toggle-button-light{
+    background-color: var(--black);
+}
+
+.toggle-button-dark{
+    border: var(--black);
+    background-color: var(--green);
+}
+
+.toggle-button-light,
+.toggle-button-dark
+{
+    min-height: 20px;
+    max-height: 20px;
+    min-width: 20px;
+    max-width: 20px;
+    margin: 3px;
+    align-self: center;
+}
+
+

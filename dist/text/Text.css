@@ -1,0 +1,7 @@
+.text-light{
+    color: var(--black);
+}
+
+.text-dark{
+    color: var(--green);
+}

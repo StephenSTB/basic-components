@@ -1,0 +1,27 @@
+.dropdown-small-light,
+.dropdown-small-dark{
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 25px;
+    max-height: 25px
+}
+
+.dropdown-medium-light,
+.dropdown-medium-dark{
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 35px;
+    max-height: 35px;
+}
+
+.dropdown-small-dark,
+.dropdown-medium-dark{
+    color: var(--green);
+    background-color: var(--black);
+    border: solid 1px var(--green);
+}
+
+.dropdown-small-dark:focus,
+.dropdown-medium-dark:focus{
+    border: solid 1px var(--green);
+}

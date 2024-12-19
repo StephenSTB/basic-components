@@ -1,0 +1,12 @@
+.divider-width-light,
+.divider-width-dark{
+    width: 100%;
+}
+
+.divider-width-light{
+    border-top: solid 1px var(--black)
+}
+
+.divider-width-dark{
+    border-top: solid 1px var(--green)
+}
