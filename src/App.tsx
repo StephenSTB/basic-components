@@ -30,7 +30,6 @@ function App() {
   const options = [<option>Test1</option>,<option>Test2</option>, <option>Test3</option>]
 
   
-
   const activatePopup = (pop: number) =>{
     //console.log("activate popup")
     pop === 1 ? setPopupState1(!popupState1) : setPopupState2(!popupState2)
@@ -70,14 +69,18 @@ function App() {
     setConnectedText("Connected")
   }
 
+  const textClick = () =>{
+    console.log("clicked")
+  }
   return (
     <div className="App">
+
       <div className='small-box'>
         <Button size='icon' icon={<Icon src="following"/>}  theme='dark'/>
       </div>
       <Dropdown options={options} theme="dark" size='medium'/>
     
-      <Text theme="dark" text="This is dark text."/>
+      <Text theme="dark" text="This is dark text." onClick={textClick} id="dark-text"/>
       <Icon src={ button_icon } size="mini" />
       <Button size='medium' text="testing" icon={<Icon size='mini' src = {button_icon} />} theme={button_type} onClick={changeIcon}/>
       <Toggle active={typeToggle} theme={type} onClick={toggleType}/>

@@ -7,11 +7,12 @@ interface TextProps{
     id?: string;
     text?: string;
     color?: string;
-    onClick?: (e: Event) => any;
+    onClick?: any;
 }
+
 
 export const Text = (props : TextProps) =>{
     return (
-        <div id={props.id} className={`text-${themes.includes(props.theme) ? props.theme : "light"}`} style={{color: props.color}} onClick={() => props.onClick}>{props.text}</div>
+        <div id={props.id} className={`text-${themes.includes(props.theme) ? props.theme : "light"}`} style={{color: props.color}} onClick={props.onClick}>{props.text}</div>
     )
 }
